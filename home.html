@@ -3,31 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
+    <!--header-->
+    <header>
     <nav class="navbar">
-      <a class="nav-link" href="#home">HOME</a></li>
-      <a class="nav-link" href="#biographie">BIOGRAPHY</a></li>
-      <a class="nav-link" href="#work">WORK</a>
-      <a class="nav-link" href="#best-songs">BEST SONGS</a>
+      <ul class="menu">
+        <li><a class="nav-link" href="#home">HOME</a></li>
+        <li><a class="nav-link" href="#biographie">ABOUT</a></li>
+        <li><a class="nav-link" href="#work">WORK</a></li>
+        <li><a class="nav-link" href="#resume">RESUME</a></li>
+        <li><a class="nav-link" href="#contact">CONTACT</a></li>
+      </ul>
     </nav>
-    <section id="home">
+    </header>
+    <!--main-->
+  <main>
+    <!--home section -->
+    <section class="home">
+      <div class="homecontent">
       <h1><i>BILLIE EILISH</i></h1>
-      <img src="image.jpg" alt="BILLIE" />
       <h2>
         “You should love yourself, and if you’re trying to be something you’re
         not, it’ll never work.” — from “idontwannabeyouanymore”
       </h2>
+      </div>
+      <div class="homeimg">
+      <img src="image.jpg" alt="BILLIE" />
+      </div>
     </section>
-
-    <section id="biographie">
-      <h1>ABOUT OUR ARTIST</h1>
-
-      <img src="Billie Eilish.jpg"  sizes="100" >   
-      <h1> <strong> "DO YOU THINK YOU KNOW ME REALLY KNOW ME ?"--billie--not my responsability--</strong></h1>
-      <table>
+    <!--about-->
+    <section  class="about">
+      <div class="aboutcontent">
+        <div class="about-text">
+          <h1>ABOUT OUR ARTIST</h1>
+          <h1> <strong> "DO YOU THINK YOU KNOW ME REALLY KNOW ME ?"
+            --billie--not my responsability--</strong></h1>
+        </div>
+        <table>
               <thead>
                 <tr>
                   <th> Fact </th> 
@@ -57,8 +73,10 @@
         </tbody>
       </table>
     </div>
-
-    <section id="work">
+     
+    </section>
+    <!--work section -->
+    <section class="work">
     <h1>her best cooking</h1>
      <ul>
       <li>
@@ -95,20 +113,38 @@
         </p>
       </li>
     </ul>
-  </section>
-
-  <section id="best-songs">
-    <h1>HER BEST SONGS</h1>
+    </section>
+    <!--resume section-->
+     <section class="resume">
+     
+     <div class="video"> <h1>RESUME</h1> <video controls> <source src="video.mp4" type="video/mp4">
+      </video></div> 
+       <div class="songs">
+    <h2>HER BEST SONGS</h2>
     <ul>
       <li>EVERYTHING I WANTED</li>
       <li>NDA</li>
       <li>chhiro</li>
     </ul>
-  </section>
-
-    <footer>
-      <p>Author: KAMIR<br>
-      <a href="mailto:ibrahim84khaled@gmail.com">kamir@gmail.com</a></p>
+    </div> 
+    <div class="audio"><h1>my fav song:</h1>
+    <audio controls>
+      <source src="therefore_i_am.mp3" type="audio/mpeg">
+    </audio> </div>
+     </section>
+     <!--contact section -->
+     <section class="contact">
+    <h1>CONTACT :</h1>
+    <ul>
+      <li>instagram: <a href="https://www.instagram.com/billieeilish/">billieeilish</a></li>
+        
+    </ul> 
+     </section>
+  </main>
+    <!--footer -->
+    <footer class="footer">
+      <p class="author">Author: KAMIR<br>
+      <a class="author"href="mailto:kamirlastar@gmail.com">kamir@gmail.com</a></p>
     </footer>
  
   </body>
